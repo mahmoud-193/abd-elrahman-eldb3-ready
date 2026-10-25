@@ -1,0 +1,15 @@
+{
+  "name": "abd-elrahman-eldb3-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arabic chemistry teacher website for Abdulrahman Eldb3",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node serve.mjs",
+    "test": "node --test tests/site.test.cjs",
+    "check": "node --check app.js && node --check client.js && node --check message-utils.js && node --check site-config.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
